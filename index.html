@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f5f1" />
+    <meta name="description" content="Preencha seu cartão-resposta do ENEM e confira seus acertos." />
+    <title>Meu Gabarito ENEM</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#topo" aria-label="Meu Gabarito, início">
+          <span class="brand-mark" aria-hidden="true">G</span>
+          <span>meu<span class="brand-light">gabarito</span></span>
+        </a>
+        <span class="edition-tag"><span class="live-dot"></span> ENEM 2026 · 1º dia</span>
+      </header>
+
+      <section class="intro" id="topo">
+        <div class="intro-copy">
+          <p class="eyebrow">SEU CARTÃO-RESPOSTA DIGITAL</p>
+          <h1>Confira como<br /><span>você foi.</span></h1>
+          <p class="intro-text">Marque as alternativas que escolheu na prova. A gente conta seus acertos na hora.</p>
+        </div>
+        <aside class="score-card" aria-live="polite">
+          <div class="score-top"><span>SEU RESULTADO</span><span class="score-icon" aria-hidden="true">✳</span></div>
+          <div class="score-number"><strong id="score">0</strong><span> / 90</span></div>
+          <div class="score-caption" id="score-caption">acertos até agora</div>
+          <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+          <div class="progress-label"><span id="answered-count">0 respondidas</span><span id="percentage">0%</span></div>
+        </aside>
+      </section>
+
+      <section class="language-panel" aria-labelledby="language-title">
+        <div class="language-copy">
+          <span class="language-symbol" aria-hidden="true">文</span>
+          <div><h2 id="language-title">Língua estrangeira</h2><p>Qual opção você escolheu na prova?</p></div>
+        </div>
+        <div class="language-options" role="group" aria-label="Escolha a língua estrangeira">
+          <button class="language-option selected" data-language="ingles" aria-pressed="true"><span class="radio-mark"></span> Inglês</button>
+          <button class="language-option" data-language="espanhol" aria-pressed="false"><span class="radio-mark"></span> Espanhol</button>
+        </div>
+      </section>
+
+      <section class="answers-section" aria-labelledby="answers-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">PROVA BRANCA</p><h2 id="answers-title">Seu cartão-resposta</h2></div>
+          <div class="legend"><span class="legend-item"><i class="legend-dot selected-dot"></i> Sua resposta</span><span class="legend-item"><i class="legend-dot correct-dot"></i> Correta</span></div>
+        </div>
+        <div class="notice"><span aria-hidden="true">ⓘ</span> O gabarito usado é extraoficial. Suas respostas ficam salvas neste navegador.</div>
+        <div class="answer-grid" id="answer-grid"></div>
+        <div class="bottom-actions">
+          <p>Você pode alterar suas respostas a qualquer momento.</p>
+          <button class="clear-button" id="clear-button" type="button"><span aria-hidden="true">↻</span> Limpar respostas</button>
+        </div>
+      </section>
+      <footer>Feito para conferir com calma. <span>·</span> ENEM 2026</footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
