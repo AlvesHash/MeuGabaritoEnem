@@ -1,22 +1,23 @@
 # Meu Gabarito ENEM 2026
 
-Cartão-resposta online para preencher as alternativas do **1º dia do ENEM 2026 — Prova Branca** e conferir seus acertos.
+Cartão-resposta online para preencher as alternativas do **1º dia do ENEM 2026** e conferir seus acertos.
 
 **Acesse o site:** [meugabaritoenem.vercel.app](https://meugabaritoenem.vercel.app/)
 
 ## O que você pode fazer
 
 - Marcar uma alternativa de A a E em cada questão, da 1 à 90.
+- Escolher a cor do caderno: **Branca, Verde, Azul ou Amarela**.
 - Escolher **Inglês** ou **Espanhol** para as questões de língua estrangeira (1 a 5).
 - Ver a quantidade de respostas preenchidas e de acertos atualizar na hora.
-- Retomar suas marcações depois: elas ficam salvas no navegador que você usou.
+- Retomar suas marcações depois: elas ficam salvas separadamente por caderno no navegador que você usou.
 - Usar o cartão no celular ou no computador.
 
 ## Como funciona
 
-O site compara as respostas marcadas com o gabarito configurado para a Prova Branca. As questões 1 a 5 usam o gabarito do idioma escolhido; as questões 6 a 90 usam a sequência comum.
+O site compara as respostas marcadas com o gabarito correspondente à cor selecionada. As questões de língua estrangeira aparecem como `1I` a `5I` (Inglês) e `1E` a `5E` (Espanhol) nas imagens dos gabaritos; o seletor de idioma escolhe a sequência correta para as questões 1 a 5. As questões 6 a 90 usam as respostas comuns daquele caderno. A questão `RED`, de redação, não entra na contagem.
 
-> **Atenção:** o gabarito disponível foi transcrito de uma imagem extraoficial. Confira com uma fonte oficial quando ela for publicada.
+> **Atenção:** os gabaritos foram transcritos das imagens extraoficiais compartilhadas para as provas Branca, Verde, Azul e Amarela. Confira com uma fonte oficial quando ela for publicada.
 
 ## Tecnologias
 

@@ -33,6 +33,16 @@
         </aside>
       </section>
 
+      <section class="booklet-panel" aria-labelledby="booklet-title">
+        <div class="booklet-heading"><h2 id="booklet-title">Cor do caderno</h2><p>Escolha a cor impressa na capa da sua prova.</p></div>
+        <div class="booklet-options" role="group" aria-label="Escolha a cor do caderno">
+          <button class="booklet-option selected" data-color="branca" aria-pressed="true"><span class="color-swatch swatch-white"></span> Branca</button>
+          <button class="booklet-option" data-color="verde" aria-pressed="false"><span class="color-swatch swatch-green"></span> Verde</button>
+          <button class="booklet-option" data-color="azul" aria-pressed="false"><span class="color-swatch swatch-blue"></span> Azul</button>
+          <button class="booklet-option" data-color="amarela" aria-pressed="false"><span class="color-swatch swatch-yellow"></span> Amarela</button>
+        </div>
+      </section>
+
       <section class="language-panel" aria-labelledby="language-title">
         <div class="language-copy">
           <span class="language-symbol" aria-hidden="true">文</span>
@@ -46,14 +56,14 @@
 
       <section class="answers-section" aria-labelledby="answers-title">
         <div class="section-heading">
-          <div><p class="eyebrow">PROVA BRANCA</p><h2 id="answers-title">Seu cartão-resposta</h2></div>
+          <div><p class="eyebrow" id="color-label">PROVA BRANCA</p><h2 id="answers-title">Seu cartão-resposta</h2></div>
           <div class="legend"><span class="legend-item"><i class="legend-dot selected-dot"></i> Sua resposta</span><span class="legend-item"><i class="legend-dot correct-dot"></i> Correta</span></div>
         </div>
         <div class="notice"><span aria-hidden="true">ⓘ</span> O gabarito usado é extraoficial. Suas respostas ficam salvas neste navegador.</div>
         <div class="answer-grid" id="answer-grid"></div>
         <div class="bottom-actions">
           <p>Você pode alterar suas respostas a qualquer momento.</p>
-          <button class="clear-button" id="clear-button" type="button"><span aria-hidden="true">↻</span> Limpar respostas</button>
+          <button class="clear-button" id="clear-button" type="button"><span aria-hidden="true">↻</span> Limpar este caderno</button>
         </div>
       </section>
       <footer>Feito para conferir com calma. <span>·</span> ENEM 2026</footer>
